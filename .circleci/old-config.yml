@@ -11,9 +11,4 @@ jobs:
       - image: cimg/node:22.1.0
     steps:
       - checkout
-      - run: 
-          name: Install dependencies
-          command: npm i
-      - run:
-          name: Run lint
-          command: npm run lint
+      - run: node --version
